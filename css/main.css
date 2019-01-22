@@ -75,3 +75,25 @@ a {
 a:hover {
   background-color: #000;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 50%;
+    padding-left: .2rem;
+    padding-top: 1rem;
+  }
+
+  .image {
+    display: inline-block;
+    max-width: 50%;
+    vertical-align: middle;
+  }
+}
