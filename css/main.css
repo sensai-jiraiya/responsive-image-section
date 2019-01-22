@@ -58,3 +58,20 @@ h1 {
   padding-left: 1rem;
   margin-top: 0;
 }
+
+a {
+  display: inline-block;
+  background-color: #555;
+  color: #fff;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #555;
+  text-decoration: none;
+  padding: .5em .75em;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+a:hover {
+  background-color: #000;
+}
